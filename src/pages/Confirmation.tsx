@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
-import { 
-    StyleSheet,
-    SafeAreaView,
-    View,
-    Text,
-} from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+
 import { useNavigation, useRoute } from '@react-navigation/core';
 
-import { Button } from '../components/Button'
-
+import { Button } from '../components/Button';
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
